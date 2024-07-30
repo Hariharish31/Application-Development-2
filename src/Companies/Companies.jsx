@@ -3,6 +3,7 @@ import "./Companies.css"
 const Companies = () => {
   return (
     <section className="c-wrapper">
+      <h1 className='flexColCenter orangeText paddings innerWidth' >Our Affilates</h1>
         <div className="paddings innerWidth flexCenter c-container">
             <img src="./prologis.png" alt="" />
             <img src="tower.png" alt="" />

@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -66,19 +68,19 @@ a{
 .primaryText{
   color:#1f3e72;
   font-weight:bold;
-  font-size:2rem;
+  font-size:3rem;
 }
 .secondaryText{
   color:rgb(140 139 139);
-  font-size:0.9rem;
+  font-size:1rem;
 }
 .orangeText{
   color: orange;
   font-weight:600; 
-  font-size:1.5rem;
+  font-size:2rem;
 }
 
-.button{
+.buttons{
   font-weight: 500;
   padding: 0.6rem 1.4rem;
   background-color: #2e12e5;
@@ -88,9 +90,9 @@ a{
   transition: all 300ms ease-in-out;
 }
 
-.button:hover{
+.buttons:hover{
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 @media (min-width:1536px) 

@@ -1,18 +1,17 @@
 import React from "react";
 import "./GetStarted.css";
+import { useNavigate } from "react-router-dom";
 const GetStarted = () => {
+  const navigate=useNavigate();
   return (
     <div id="get-started" className="g-wrapper">
       <div className="paddings innerWidth g-container">
         <div className="flexColCenter inner-container">
-          <span className="primaryText">Get started with Homyz</span>
+          <span className="primaryText">Get started with Urban Elite</span>
           <span className="secondaryText">
-            Subscribe and find super attractive price quotes from us.
-            <br />
             Find your residence soon
           </span>
-          <button className="button" href>
-            {/* <a href="mailto:zainkeepscode@gmail.com">Get Started</a> */}
+          <button className="buttons" onClick={()=>navigate("/register")}>
             Get Started
           </button>
         </div>

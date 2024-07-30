@@ -24,6 +24,12 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="flexStart f-social">
+              {/* <span>Follow us</span> */}
+            </div>
+            <div className='legal'>
+        <span>© 2024 URBAN ELITE. Designed By Team 22.</span>
+      </div>
     </div>
   );
 };
